@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box; /*padding은 주고 싶은데 박스 크기가 늘어나는걸 원하지 않을때 사용*/
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  /*자식이 position:absolute를 쓰기 위해서 
+  부모 container에서 position:relative를 써야함*/
+  position: relative;
+  color: #2e363e;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+}
+.nav__reddot {
+  color: tomato;
+  font-size: 70px;
+  position: absolute;
+  left: 30px;
+  bottom: 28px;
+}
