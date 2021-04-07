@@ -48,3 +48,11 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__information {
+  display: flex;
+  align-items: center;
+}
+.user-component__information i {
+  color: tomato;
+  margin-left: 5px;
+}
