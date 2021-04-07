@@ -23,6 +23,10 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+main {
+  height: 90vh;
+}
+
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
